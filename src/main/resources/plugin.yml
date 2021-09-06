@@ -1,0 +1,6 @@
+name: Nightmare
+version: 1.0-SNAPSHOT
+author: ThatKawaiiSam
+description: Nightmare Event Plugin
+main: io.github.thatkawaiisam.nightmare.NightmarePlugin
+depend: [WorldEdit, Factions]

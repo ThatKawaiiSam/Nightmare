@@ -1,0 +1,13 @@
+Tiers:
+  1:
+    Gain: "shop addmodifier global {factionPlayer} 1.5 sell"
+    Loss: "shop resetmodifier global {factionPlayer}"
+  2:
+    Gain: "shop addmodifier global {factionPlayer} 2.5 sell"
+    Loss: ""
+  3:
+    Gain: "shop addmodifier global {factionPlayer} 3.0 sell"
+    Loss: ""
+  4:
+    Gain: "lp user {factionPlayer} permission set essentials.warps.nightmare"
+    Loss: "lp user {factionPlayer} permission remove essentials.warps.nightmare"
